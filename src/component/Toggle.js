@@ -15,7 +15,10 @@ function Toggle(props) {
     `;
 
     return (
-        <toggleBtn className="ToggleBtn" onClick={clickHandler} value={this.state.ToggleOn}/>
+        <div>
+            Toggle
+            <toggleBtn className="ToggleBtn" onClick={clickHandler} value={this.state.ToggleOn}/>
+        </div>
     );
 }
 
