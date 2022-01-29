@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import styled from "styled-components";
 
 function Modal(props) {
     const [modalVisible, setModalVisible] = useState(false);
@@ -82,15 +81,5 @@ function Modal(props) {
         </div>
     );
 }
-
-// const openBtn = styled.button`
-//   height: 70px;
-//   width: 150px;
-//   border-radius: 25%;
-//   background: #8843ff;
-// `;
-// const modal = styled.div`
-//   box-sizing:border-box;
-// `;
 
 export default Modal;
