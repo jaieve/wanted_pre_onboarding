@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ComponentName from "./ComponentName";
 
 function Modal(props) {
     const [modalVisible, setModalVisible] = useState(false);
@@ -57,7 +58,7 @@ function Modal(props) {
     }
     return (
         <div className="row h-25">
-            <h3 className="text-start">Modal</h3>
+            <ComponentName componentsName="Modal" />
             <div className="row justify-content-center">
                 <button className="border-0" type="button" style={btn_style}
                         onClick={openModal}>Open Modal

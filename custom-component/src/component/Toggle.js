@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import "../../src/style/toggleStyle.css";
+import ComponentName from "./ComponentName";
 
 function Toggle(props) {
     const [selected, setSelected] = useState(false);
@@ -9,7 +10,7 @@ function Toggle(props) {
     }
     return (
         <div className="row h-25">
-            <h3 className="text-start">Toggle</h3>
+            <ComponentName componentsName="Toggle" />
             <div className="d-flex justify-content-center py-auto my-0">
                 <div className={`toggle-container ${selected ? "" : "disabled"}`}
                      onClick={toggleHandler}>
