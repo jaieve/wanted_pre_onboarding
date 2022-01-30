@@ -1,4 +1,5 @@
 .clicked {
     background: gray;
     color : white;
+    transition: 1s;
 }
