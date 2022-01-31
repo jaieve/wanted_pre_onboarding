@@ -1,7 +1,7 @@
 # wanted_pre_onboarding
 
 ## Header
-- Toggle 생성 이후 작업예정
+- 
 
 ## Modal
  - 1/29 : z-index에 대한 개념이 부족하다는 것을 느낌. 찾아서 공부해야겠다.
