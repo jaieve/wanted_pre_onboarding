@@ -1,11 +1,14 @@
 import React, {useState} from 'react';
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ComponentName from "./ComponentName";
 
 function Modal(props) {
     const [modalVisible, setModalVisible] = useState(false);
 
+    const modalCloseIcon = {
+        display: 'block',
+        margin: '1rem 0',
+        fontSize: '16px',
+    }
     const btn_style = {
         display: 'block',
         width: '150px',
@@ -58,7 +61,7 @@ function Modal(props) {
     }
     return (
         <div className="row h-25">
-            <ComponentName componentsName="Modal" />
+            <ComponentName componentsName="Modal"/>
             <div className="row justify-content-center">
                 <button className="border-0" type="button" style={btn_style}
                         onClick={openModal}>Open Modal
@@ -68,12 +71,19 @@ function Modal(props) {
                                       onClose={closeModal}
                 >
                     <div id="modalOverlay" visible={modalVisible} style={modalOverlayStyle}/>
-                    <div id="modalWrapper" className="modal" style={modalWrapperStyle} tabIndex="-1" visible={modalVisible} >
-                        <div id="modalInner" className="modal-inner" style={modalInnerStyle} tabIndex="0">
-                            <div id="closeBtn" className="mb-5" onClick={closeModal}>
-                                <FontAwesomeIcon icon={faTimes} />
+                    <div id="modalWrapper" className="modal" style={modalWrapperStyle} tabIndex="-1"
+                         visible={modalVisible}>
+                        <div id="modalInner" className="modal-inner text-center" style={modalInnerStyle} tabIndex="0">
+                            {/*<div id="closeBtn" className="mb-5" onClick={closeModal}>*/}
+                            {/*    <FontAwesomeIcon icon={faTimes} />*/}
+                            {/*</div>*/}
+                            <div className="header text-center mb-4">
+                                <span className="modal-close-icon" style={{modalCloseIcon}}
+                                      onClick={closeModal}>
+                                &times;
+                            </span>
                             </div>
-                            HELLO I'm JAIEVE!
+                            <span>HELLO I'm JAIEVE!</span>
                         </div>
                     </div>
                 </div>
