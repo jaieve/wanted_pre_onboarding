@@ -4,18 +4,13 @@ import ComponentName from "./ComponentName";
 function Modal(props) {
     const [modalVisible, setModalVisible] = useState(false);
 
-    const modalCloseIcon = {
-        display: 'block',
-        margin: '1rem 0',
-        fontSize: '16px',
-    }
     const btn_style = {
         display: 'block',
         width: '150px',
         height: '100px',
         backgroundColor: '#7b1cb6',
         color: 'white',
-        borderRadius: '30%'
+        borderRadius: '25px'
     }
     const modalOverlayStyle = {
         boxSizing: 'border-box',
@@ -53,6 +48,12 @@ function Modal(props) {
         margin: '0 auto',
         padding: '40px 20px'
     }
+    const closeIconStyle = {
+        display: 'block',
+        margin: '1rem 0',
+        fontSize: '16px',
+        cursor : 'pointer'
+    }
     const openModal = () => {
         setModalVisible(true);
     }
@@ -74,14 +75,10 @@ function Modal(props) {
                     <div id="modalWrapper" className="modal" style={modalWrapperStyle} tabIndex="-1"
                          visible={modalVisible}>
                         <div id="modalInner" className="modal-inner text-center" style={modalInnerStyle} tabIndex="0">
-                            {/*<div id="closeBtn" className="mb-5" onClick={closeModal}>*/}
-                            {/*    <FontAwesomeIcon icon={faTimes} />*/}
-                            {/*</div>*/}
-                            <div className="header text-center mb-4">
-                                <span className="modal-close-icon" style={{modalCloseIcon}}
-                                      onClick={closeModal}>
-                                &times;
-                            </span>
+                            <div className="header text-center mb-5 mt-0"
+                                 style={closeIconStyle}
+                                 onClick={closeModal}>
+                                    &times;
                             </div>
                             <span>HELLO I'm JAIEVE!</span>
                         </div>
