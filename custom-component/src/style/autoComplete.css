@@ -1,0 +1,53 @@
+#inputContainer {
+    margin : 2.5rem 0;
+    background-color:  #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    z-index: 3;
+    box-shadow: 0;
+    border : 1px solid #4000c7;
+}
+#inputContainer:focus-within {
+    box-shadow: 0 4px 6px rgb(32 33 36 / 0.28);
+    border-radius: 1rem 1rem 1rem 1rem;
+    border : 2px solid #4000c7;
+    transition: border 0.1s ease;
+}
+#inputContainer > input {
+    flex : 1 0 0;
+    background-color: transparent;
+    border : none;
+    outline: none;
+    font-size: 16px;
+}
+.delete-button {
+    cursor : pointer;
+}
+
+#dropdown {
+    background-color: #ffffff;
+    display: block;
+    list-style-type : none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start : 0;
+    margin-inline-end: 0;
+    padding-inline-start : 0;
+    margin-top: -1rem;
+    padding: 0.5rem 0;
+    border: #4000c7;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 4px 6px rgb(32 33 36 / 0.28);
+    z-index: 3;
+}
+#dropdown > li {
+    padding : 0 1rem;
+}
+#dropdown > li:hover {
+    background-color: lightgray;
+}
+#dropdown >li.selected {
+    background-color: lightgray;
+}
