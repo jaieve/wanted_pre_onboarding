@@ -1,7 +1,7 @@
 # wanted_pre_onboarding
 
 ## Header
-- Toggle 생성 이후 작업예정
+- 
 
 ## Modal
  - 1/29 : z-index에 대한 개념이 부족하다는 것을 느낌. 찾아서 공부해야겠다.
@@ -22,3 +22,4 @@
 
 
 [과제 가이드라인 바로가기](https://codestates.notion.site/5f83f7a007664f1abcf0cdbcbbbbd521)
+[과제 바로보기 링크](https://61f751ac9823c90c9f56b06a--relaxed-panini-542d7e.netlify.app/)
