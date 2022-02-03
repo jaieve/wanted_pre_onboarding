@@ -21,5 +21,5 @@
 4. `npm start`
 
 
-[과제 가이드라인 바로가기](https://codestates.notion.site/5f83f7a007664f1abcf0cdbcbbbbd521)
-[과제 바로보기 링크](https://61f751ac9823c90c9f56b06a--relaxed-panini-542d7e.netlify.app/)
+- [과제 가이드라인 바로가기](https://codestates.notion.site/5f83f7a007664f1abcf0cdbcbbbbd521)
+- [과제 바로보기 링크](https://61f751ac9823c90c9f56b06a--relaxed-panini-542d7e.netlify.app/)

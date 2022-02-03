@@ -7,7 +7,7 @@ import AutoComplete from "./component/AutoComplete";
 
 function App() {
     return (
-        <div className="App container" style={{height: '100vh'}}>
+        <div className="App container my-5" style={{height: '100vh'}}>
             <div className="row" style={{height: '100vh'}}>
                 <div className="col-6" style={{height: '100vh'}}>
                     <Modal />
