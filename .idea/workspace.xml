@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5e4197-15c9-4174-b7f0-e66da03b9769" name="Changes" comment="Toggle.js 태그 수정">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-component/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/custom-component/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-component/src/App.test.js" beforeDir="false" />
-    </list>
+    <list default="true" id="9e5e4197-15c9-4174-b7f0-e66da03b9769" name="Changes" comment="Toggle.js 태그 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="package.json에 fontawesome 추가" />
