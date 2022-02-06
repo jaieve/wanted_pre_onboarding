@@ -3,7 +3,7 @@ import ComponentName from "./ComponentName";
 import "../style/tagStyle.css";
 
 function Tag(props) {
-    const initialTags = ['CodeStates', 'hsy'];
+    const initialTags = ['CodeStates', 'is', 'awesome'];
     const [tags, setTags] = useState(initialTags);
 
     const removeTags = (idx) => {
