@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import ComponentName from "./ComponentName";
 import Dropdown from "./Dropdown";
-import styled from "styled-components";
 import "../style/autoComplete.css";
 
 function AutoComplete(props) {
