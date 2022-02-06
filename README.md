@@ -23,4 +23,6 @@
 
 [과제 가이드라인 바로가기](https://codestates.notion.site/5f83f7a007664f1abcf0cdbcbbbbd521)
 
+[Netlify 배포링크](https://jaieve-wanted-prebonboarding.netlify.app/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b0e5130e-a19b-4ef0-99f1-dc04a6e4e0cd/deploy-status)](https://app.netlify.com/sites/jaieve-wanted-prebonboarding/deploys)
