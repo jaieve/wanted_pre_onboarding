@@ -12,7 +12,8 @@
  - onClick event 발생 시 **selected** 변경
    - **selected**가 **true**인 경우 className 설정값이 바뀌며 className에 지정해준 css 변경되며, `ON/OFF` 텍스트가 변경됨.
 
-### Tag (어려워서 검색해가면서 따라서 만듦)
+### Tag
+ - `어려워서 검색해가면서 따라서 만듦`
  - 설정 state : **tag**(array type, default: `['CodeStates', 'is', 'awesome']`)
  - `tags.map()`을 이용하여 array의 item을 tag형태의 css가 적용된 `<li>` 태그의 text에 넣어줌.
  - 태그의 `X` 를 클릭하면 해당 태그의 key값을 이용하여 `tags.filter()`
